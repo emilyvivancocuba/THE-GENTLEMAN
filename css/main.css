@@ -1,0 +1,141 @@
+body{
+	background-color: rgb(222, 223, 233);
+	font-family: 'Open Sans', sans-serif;
+}
+header{
+	background-color: rgb(49, 45, 56);
+	color: white;
+	box-shadow: 0px 0px 10px black;
+	position: fixed;
+	z-index: 1000;
+}
+header h1{
+	padding-top: 15px;
+	margin-left: 20px;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	text-transform: capitalize;
+}
+nav ul{
+	list-style-type: none;
+	white-space: nowrap;
+}
+.nav-header ul{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 14px;
+	line-height: 14px;
+}
+nav li{
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+.nav-header li:hover a{
+	color: red;
+}
+.nav-header a{
+	padding: 10px 15px;
+	color: white;
+	font-family: none;
+}
+.nav-header a:hover{
+	color:red;
+}
+.main{
+	background-color: rgb(244, 245, 248);
+	box-shadow: 0px 0px 20px gray;
+	padding-top: 80px;
+}
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+section.presentation img{
+	width: 100%;
+}
+.tittle1{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-family: none;
+	font-size: 28px;
+}
+section.presentation p{
+	font-size: 12px;
+}
+.boton{
+	color: white;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border: 0px solid #000;
+	padding: 5px 15px;
+	font-size: 10px;
+}
+a.boton{
+	display: inline-block;
+}
+.readmore{
+	background-color: rgb(176, 173, 183);
+	margin-top: 30px;
+}
+.loadmore{
+	background-color: rgb(108, 101, 119);
+	text-align: center;
+	margin-bottom: 30px;
+}
+div.line{
+	height: 2px;
+	background:-webkit-repeating-linear-gradient(135deg, #000000, #000000 0px, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0) 4px);
+	background-size: 960px;
+}
+.nav-projects li{
+	margin-right: 4px;
+}
+.nav-projects li a{
+	font-size: 12px;
+	color: #AEAEAE;
+	font-family: none;
+}
+.nav-projects li a:hover{
+	color: rgb(108, 101, 119);
+}
+.latest-projects img{
+	width: 100%;
+	border: 1px solid rgb(222, 223, 233);
+}
+.boton-follow{
+	border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+}
+a.txt-red{
+	color: rgb(238, 44, 106);
+}
+footer{
+	background-color: rgb(49, 45, 56);
+	color: rgb(147, 148, 176);
+	box-shadow: 0px 0px 10px black;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.nav-footer li{
+	display: block;
+}
+.nav-footer a{
+	color: white;
+	font-size: 13px;
+	font-family: none;
+}
+.nav-footer a:hover{
+	color: red;
+}
+.redes{
+	padding: 10px;
+}
